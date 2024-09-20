@@ -4,10 +4,11 @@ channels:
   - defaults
 dependencies:
   - python=3.11
+  - nb_conda_kernels
+  - mplcursors
   - jupyter
   - nb-clean=3.2.0
   - ipykernel
-  - nb_conda_kernels
   - glob2
   - numpy
   - scipy

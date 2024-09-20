@@ -16,6 +16,7 @@ data/final/*
 !data/intermediate/nc_initial/.gitkeep
 !data/intermediate/nc_edited/.gitkeep
 !data/intermediate/mat/.gitkeep
+!data/intermediate/csv/.gitkeep
 !data/final/.gitkeep
 
 
