@@ -17,8 +17,8 @@ When you have data files, or as you get them:
 
 - Open Miniforge
 - Navigate to the root folder of this repository
-- Type `mamba env create -f fs24_env.yml`
-- This should install a new mamba environment with the requirements specified in the file.
+- Type `mamba env create -f kval_template_env.yml`
+- This should install a new mamba environment called `kval_ctd` with the requirements specified in the file.
     - This includes (a specific version of) the [`kval`](https://github.com/NPIOcean/kval) library.
 
 
@@ -28,8 +28,8 @@ When you have data files, or as you get them:
 - From the root folder of the repository, run `jupyter lab`
     - This should open Jupyter lab in your browser.
 - Navigate into the `notebooks` folder and open any notebooks you want to run.
-- :warning: **Make sure to set the kernel to the `fs24` environment!**
+- :warning: **Make sure to set the kernel to the `kval_ctd` environment!**
     - Go to `Kernel -> Switch Kernel` or click the current kernel on the top right of the notebook.
-    - Choose something like `Python [conda env:fs24]*`
+    - Choose something like `Python [conda env:kval_ctd]*`
 
 - You should now be able to run cells of the notebook
